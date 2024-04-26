@@ -58,6 +58,10 @@ Status: 404
 }
 ```
 
+### Validation
+
+in this api, validation are implemented. At first, validation done by using express-validator. But since the body using form data because there is a file (media), express-validator cannot be used so validation implemented in the controller instead (manually).
+
 ### Get All Users
 
 `GET /users`
